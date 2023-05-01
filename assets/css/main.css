@@ -708,7 +708,7 @@ footer .logo {
     width: 40px
 }
 
-.games_background_right {
+.neko_background_right {
     width: 700px;
     height: 700px;
     opacity: .8;
@@ -719,7 +719,7 @@ footer .logo {
     position: relative
 }
 
-.games_background_left {
+.neko_background_left {
     background: url(../img/bag-left.png);
     opacity: .8;
     width: 300px;
@@ -778,7 +778,7 @@ footer .logo {
     min-width: 200px
 }
 
-.games-stats {
+.neko-stats {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -787,7 +787,7 @@ footer .logo {
     padding-top: 125px
 }
 
-.games-stats span {
+.neko-stats span {
     font: 14px Oswald;
     font-size: 16px;
     color: rgba(255, 255, 255, .8);
@@ -806,7 +806,7 @@ footer .logo {
 }
 
 @media screen and (max-width:1144px) {
-    .games-stats {
+    .neko-stats {
         padding-top: 10%
     }
 }
@@ -822,42 +822,42 @@ footer .logo {
         margin-top: -740px
     }
 
-    .games-stats {
+    .neko-stats {
         padding: 5% 0 0
     }
 
-    .games_background_left {
+    .neko_background_left {
         display: none
     }
 }
 
-.games_rules {
+.neko_rules {
     display: flex;
     flex-direction: column
 }
 
-.games_rules h2 {
+.neko_rules h2 {
     margin-top: 60px;
     margin-bottom: 0
 }
 
-.games_rules h3 {
+.neko_rules h3 {
     margin-bottom: 0;
     font-size: 20px
 }
 
-.games_rules span {
+.neko_rules span {
     color: #e25041;
     font: 14px Oswald
 }
 
-.games_rules p {
+.neko_rules p {
     color: #ccc;
     font: 14px Oswald;
     white-space: pre-wrap
 }
 
-.games_rules a {
+.neko_rules a {
     font-size: 18px;
     color: #f2f2f2;
     cursor: pointer;
@@ -868,31 +868,51 @@ footer .logo {
     padding: 15px
 }
 
-.games_rules_text p {
+.neko_rules_text p {
     color: #ccc;
     font: 14px Oswald;
     white-space: pre-wrap
 }
 
-.games_rules_text {
+.neko_rules_text {
     color: #ccc
 }
 
-.games_dashboard {
+.neko_dashboard {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center
 }
 
-.games_panel_btn {
+.neko_panel {
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+    font: 14px Oswald;
+    height: 250px
+}
+
+.neko_panel a {
+    color: #f2f2f2 !important;
+    padding: 10px;
+    text-align: center;
+    transition: .3s;
+    background-color: hsla(0, 0%, 100%, .1);
+    margin-top: auto
+}
+
+.neko_panel_btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center
 }
 
-.games_panel_btn a {
+.neko_panel_btn a {
     color: #f2f2f2 !important;
     padding: 10px;
     text-align: center;
@@ -901,17 +921,17 @@ footer .logo {
     width: calc(50% - 20px)
 }
 
-.games_panel a:hover {
+.neko_panel a:hover {
     color: #A52A2A !important
 }
 
-.games_panel span {
+.neko_panel span {
     color: #ccc;
     padding: 10px;
     height: 70px
 }
 
-.games_panel p {
+.neko_panel p {
     font: 18px Oswald;
     color: #A52A2A !important;
     padding: 10px;
@@ -919,12 +939,12 @@ footer .logo {
     font-weight: 500
 }
 
-.games_panel h3 {
+.neko_panel h3 {
     margin-bottom: 0
 }
 
 @media screen and (max-width:400px) {
-    .games_panel_btn a {
+    .neko_panel_btn a {
         width: 100%;
         margin: 5px 0
     }
@@ -2299,3 +2319,9 @@ input:checked+.slider:before {
 }
 
 A52A2A
+
+<style>
+  td:nth-child(3) {
+    color: green;
+  }
+</style>
