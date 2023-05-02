@@ -166,7 +166,7 @@ input[type=color] {
     text-align: center
 }
 
-.games_page>form>.alerts-green {
+.neko_page>form>.alerts-green {
     width: 100%
 }
 
@@ -831,116 +831,105 @@ footer .logo {
     }
 }
 
+/* Rules */
 .neko_rules {
-    display: flex;
-    flex-direction: column
+  display: flex;
+  flex-direction: column;
 }
-
 .neko_rules h2 {
-    margin-top: 60px;
-    margin-bottom: 0
+  margin-top: 60px;
+  margin-bottom: 0;
 }
-
 .neko_rules h3 {
-    margin-bottom: 0;
-    font-size: 20px
+  margin-bottom: 0;
+  font-size: 20px;
 }
-
 .neko_rules span {
-    color: #e25041;
-    font: 14px Oswald
+  color: rgb(226, 80, 65);
+  font: 14px Oswald;
 }
-
 .neko_rules p {
-    color: #ccc;
-    font: 14px Oswald;
-    white-space: pre-wrap
+  color: #ccc;
+  font: 14px Oswald;
+  white-space: pre-wrap;
 }
-
 .neko_rules a {
-    font-size: 18px;
-    color: #f2f2f2;
-    cursor: pointer;
-    font-weight: 400;
-    text-align: center;
-    background-color: rgba(255, 255, 255, .1);
-    margin: 10px;
-    padding: 15px
+  font-size: 18px;
+  color: rgb(242, 242, 242);
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px;
+  padding: 15px;
 }
-
 .neko_rules_text p {
-    color: #ccc;
-    font: 14px Oswald;
-    white-space: pre-wrap
+  color: #ccc;
+  font: 14px Oswald;
+  white-space: pre-wrap;
 }
-
 .neko_rules_text {
-    color: #ccc
+  color: #ccc;
 }
 
+/* End Rules */
+
+/* Dashboard */
 .neko_dashboard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
 }
-
 .neko_panel {
-    display: flex;
-    flex-flow: column;
-    width: 350px;
-    margin-bottom: 50px;
-    padding: 20px;
-    text-align: center;
-    font: 14px Oswald;
-    height: 250px
+  display: flex;
+  flex-flow: column;
+  width: 350px;
+  margin-bottom: 50px;
+  padding: 20px;
+  text-align: center;
+  font: 14px Oswald;
+  height: 250px;
 }
-
 .neko_panel a {
-    color: #f2f2f2 !important;
-    padding: 10px;
-    text-align: center;
-    transition: .3s;
-    background-color: hsla(0, 0%, 100%, .1);
-    margin-top: auto
+  color: #f2f2f2 !important;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  margin-top: auto;
 }
-
 .neko_panel_btn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
 }
-
 .neko_panel_btn a {
-    color: #f2f2f2 !important;
-    padding: 10px;
-    text-align: center;
-    transition: .3s;
-    background-color: hsla(0, 0%, 100%, .1);
-    width: calc(50% - 20px)
+  color: #f2f2f2 !important;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  width: calc(50% - 20px);
 }
-
 .neko_panel a:hover {
-    color: #A52A2A !important
+  color: #ffc84c !important;
 }
-
 .neko_panel span {
-    color: #ccc;
-    padding: 10px;
-    height: 70px
+  color: #ccc;
+  padding: 10px;
+  height: 70px;
 }
-
 .neko_panel p {
-    font: 18px Oswald;
-    color: #A52A2A !important;
-    padding: 10px;
-    margin: 0;
-    font-weight: 500
+  font: 18px Oswald;
+  color: #ffc84c !important;
+  padding: 10px;
+  margin: 0;
+  font-weight: 500;
 }
-
 .neko_panel h3 {
-    margin-bottom: 0
+  margin-bottom: 0;
 }
 
 @media screen and (max-width:400px) {
@@ -1473,19 +1462,19 @@ footer .logo {
     }
 }
 
-.games_page {
+.neko_page {
     display: flex;
     flex-wrap: wrap;
     width: 100%
 }
 
-.games_page form {
+.neko_page form {
     width: 100%;
     display: flex;
     flex-wrap: wrap
 }
 
-.games_page span {
+.neko_page span {
     font-family: Oswald;
     font-size: 18px;
     font-weight: 500;
@@ -1493,17 +1482,17 @@ footer .logo {
     margin-bottom: 10px
 }
 
-.games_page input {
+.neko_page input {
     margin-bottom: 35px
 }
 
-.games_page img {
+.neko_page img {
     margin: 25px auto 0;
     width: 100%;
     max-width: 1000px
 }
 
-.games_page button {
+.neko_page button {
     font: 18px Oswald;
     color: #f2f2f2 !important;
     padding: 10px;
@@ -1517,7 +1506,7 @@ footer .logo {
     margin-top: 30px
 }
 
-.games_page button:hover {
+.neko_page button:hover {
     color: #A52A2A !important
 }
 
